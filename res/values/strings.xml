@@ -13672,4 +13672,20 @@
 
     <!-- Text for Search bar of Settings home screen [CHAR LIMIT=34] -->
     <string name="homepage_search">Search Settings</string>
+	
+	 <string name="user_settings_send_censored_notifications_to_current">Send notifications to current user</string>
+    <string name="user_settings_send_censored_notifications_to_current_summary">Your lock screen notifications will be forwarded to the current user if you are active in the background. Only the user\'s name, the app\'s name, and the time received will be shown.</string>
+    <!-- Title of preference to enable app installs and updates [CHAR LIMIT=40] -->
+    <string name="user_app_install">App installs and updates</string>
+    <!-- Options for setting app install and updates per user -->
+    <string name="user_app_install_enabled">Enabled</string>
+    <string name="user_app_install_enabled_first_party_sources">Enabled for first party sources</string>
+    <string name="user_app_install_disabled">Disabled</string>
+    <!-- Description for options for setting app installs and updates per user -->
+    <string name="user_app_install_enabled_desc">Enable app installs and updates</string>
+    <string name="user_app_install_enabled_first_party_sources_desc">Enable app installs and updates from first party sources only</string>
+    <string name="user_app_install_disabled_desc">Disable app installs and updates</string>
+    <!-- Title of preference to enable running in background [CHAR LIMIT=40] -->
+    <string name="user_run_in_background">Allow running in background</string>
+
 </resources>
