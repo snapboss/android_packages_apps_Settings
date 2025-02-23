@@ -348,6 +348,9 @@ public class UserSettings extends SettingsPreferenceFragment
         screen.findPreference(mAddUserWhenLockedPreferenceController.getPreferenceKey())
                 .setOnPreferenceChangeListener(mAddUserWhenLockedPreferenceController);
 
+        screen.findPreference(mSendCensoredNotificationsToCurrentUserPreferenceController.getPreferenceKey())
+                .setOnPreferenceChangeListener(mSendCensoredNotificationsToCurrentUserPreferenceController);
+
         screen.findPreference(mGuestTelephonyPreferenceController.getPreferenceKey())
                 .setOnPreferenceChangeListener(mGuestTelephonyPreferenceController);
 
