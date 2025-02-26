@@ -420,7 +420,7 @@ public class UserSettings extends SettingsPreferenceFragment
         mRemoveGuestOnExitPreferenceController.updateState(screen.findPreference(
                 mRemoveGuestOnExitPreferenceController.getPreferenceKey()));
         mSwitchBarController.updateState();
-=        if (mShouldUpdateUserList) {
+        if (mShouldUpdateUserList) {
             updateUI();
         }
     }
